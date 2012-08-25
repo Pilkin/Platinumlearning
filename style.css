@@ -1,0 +1,265 @@
+.cssmenu{
+	border:none;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	font-family:verdana,geneva,arial,helvetica,sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:8e8e8e;
+	background: black;
+	}
+.cssmenu ul{
+	background:url(images/menu-bg.gif) top left repeat-x;
+	height:43px;
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+	.cssmenu li{
+		float:left;
+		padding:0px 8px 0px 8px;
+		}
+	.cssmenu li a{
+		color:#666666;
+		display:block;
+		font-weight:bold;
+		line-height:43px;
+		padding:0px 25px;
+		text-align:center;
+		text-decoration:none;
+		}
+		.cssmenu li a:hover{
+			color:#000000;
+			text-decoration:none;
+			}
+	.cssmenu li ul{
+		background:#e0e0e0;
+		border-left:2px solid #a80329;
+		border-right:2px solid #a80329;
+		border-bottom:2px solid #a80329;
+		display:none;
+		height:auto;
+		filter:alpha(opacity=95);
+		opacity:0.95;
+		position:absolute;
+		width:225px;
+		z-index:200;
+		/*top:1em;
+		/*left:0;*/
+		}
+	.cssmenu li:hover ul{
+		display:block;
+		}
+	.cssmenu li li {
+		display:block;
+		float:none;
+		padding:0px;
+		width:225px;
+		}
+	.cssmenu li ul a{
+		display:block;
+		font-size:12px;
+		font-style:normal;
+		padding:0px 10px 0px 15px;
+		text-align:left;
+		}
+		.cssmenu li ul a:hover{
+			background:#949494;
+			color:#000000;
+			opacity:1.0;
+			filter:alpha(opacity=100);
+			}
+	.cssmenu p{
+		clear:left;
+		}	
+	.cssmenu .active > a{
+		background:url(images/current-bg.gif) top left repeat-x;
+		color:#ffffff;
+		}
+	.cssmenu .active > a:hover {
+		color:#ffffff;
+		}
+		
+
+.menu ul {
+	list-style: none;
+}
+.menu ul li {
+	float:left;
+	border-right:10px solid black;
+	padding: 10px 20px;
+	height: 50px;
+}
+.banner {
+	background-color: black;
+	height:90px;
+	width:100%;
+}
+.banner ul {
+	
+}
+
+body {
+	margin:0;
+}
+table.sample {
+	border-width: 5px;
+	border-spacing: 1px;
+	border-style: double;
+	border-color: black;
+	border-collapse: separate;
+	background-color: white;
+}
+table.sample th {
+	border-width: thick;
+	padding: 5px;
+	border-style: outset;
+	border-color: red;
+	background-color: white;
+	-moz-border-radius: ;
+}
+table.sample td {
+	border-width: thick;
+	padding: 5px;
+	border-style: outset;
+	border-color: red;
+	background-color: white;
+	-moz-border-radius: ;
+}
+
+#signinbox{
+	top: 10px;
+	right: 150px;
+	height: 70px;
+	width: 180px:
+	color:#DC4900;
+	position: absolute;
+}
+	
+<!--
+body {
+	background-color: #FF8300;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+#theform {
+	background-color: #4F4F00;
+	width: 40em;
+	}
+#theform fieldset {
+	height: 20em;
+	width: 11em;
+	border: 0;
+	margin: 0;
+	padding: 1em;
+	float: left;
+	}
+#theform fieldset legend {
+	font-size: 4em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #FFFFFF;
+	}
+#theform fieldset legend span {
+	display: none;
+	}
+#theform fieldset h3 {
+	height: 4em;
+	font-size: 1em;
+	}
+#theform fieldset div.help {
+	color: #FFFF99;
+	font-size: 0.7em;
+	font-weight: bold;
+	height: 5em;
+	}
+#theform fieldset label {
+	font-size: 0.7em;
+	display: block;
+	line-height: 1.5em;
+	}
+	
+/* Error Styling */
+#theform fieldset.error,
+#theform fieldset.error legend,
+#theform fieldset.error div.help {
+	color: #FFCC33;
+	}
+#theform fieldset strong.error {
+	color: #fff;
+	background-color: #CC0000;
+	padding: 0.2em;
+	font-size: 0.7em;
+	font-weight: bold;
+	display: block;
+	}
+
+/* Part 4 Styling */
+#theform #pt4 {
+	clear: both;
+	width: 38em;
+	height: 5em;
+	border: 10px solid #666600;
+	border-width: 10px 0;
+	padding: 1em;
+	}
+#theform #pt4 legend {
+	display: none;
+	}
+#theform #pt4 h3 {
+	display: none;
+	}
+#theform #pt4 #disclaimer {
+	width: 22em;
+	float: left;
+	font-size: 0.7em;
+	}
+#theform input {
+	padding: 4px 8px;
+	font-size: 1em;
+	width: 160px;
+	color: #666666; 
+	background: #f3f3f3;
+	font-weight: bold;
+	border-bottom: 	1px solid #999999;
+	border-right: 1px solid #999999;
+	border-top: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;	
+	float: right;
+	}
+
+#copyright {
+	clear: both;
+	padding: 0.5em;
+	font-size: 0.8em;
+	color: #9F9F00;
+	font-style: italic;
+	}
+
+#header-wrap {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height:133px;
+	background: 00FFFF;
+	z-index: 17;
+	width: 100%;
+}
+
+#body-wrap {
+	position: relative;
+	top: 133px;
+	z-index: 2;
+}
+
+/* this is the noted text of the aptana download button
+.aptanabutton{
+position: absolute;
+z-index: 2;
+bottom: 80px;
+left: 118px;
+width: 227px;
+height: 70px;
+background: transparent url("/Pictures/btn-download-studio3.png") no-repeat top left;
+}
+*/
