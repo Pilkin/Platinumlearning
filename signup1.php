@@ -3,15 +3,13 @@
 		
 	</head>
 	<body>
+		<h1 style="font-size:18px;">Sign up details</h1>
 		<form method="post"action="" onsubmit="">
-<div><h1 style="font-size:18px;">Sign up details</h1></div>
-</div>
 
-
-
-<div class="">
-<label class="" for=""><b>----></b> First Name</label>
-</div>
+	<div class="">
+		<label class="" for=""><b>----></b> First Name</label>
+		<input type="text size="25" value="" />
+	</div>
 
 
 <div class="">
