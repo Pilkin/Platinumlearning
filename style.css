@@ -7,7 +7,7 @@
 	font-size:14px;
 	font-weight:bold;
 	color:8e8e8e;
-	background: black;
+	background: #25515A;/*---------------------------------------------------------------Colorchange----------------------------------------------------*/
 	}
 .cssmenu ul{
 	background:url(images/menu-bg.gif) top left repeat-x;
@@ -139,7 +139,7 @@ table.sample td {
 	
 <!--
 body {
-	background-color: grey; /*This is the old color FF8300-->*/
+	background-color: #A67441; /*This is the old color FF8300-->--------------------------------Colorchange-------------------------------------------*/
 	color: #FFFFFF;
 	font-family: Arial, Helvetica, sans-serif;
 	}
@@ -241,7 +241,7 @@ body {
 	top: 0;
 	left: 0;
 	height:133px;
-	background: black;/* This is the old color  00FFFF */
+	background: #BA924A;/* This is the old color  00FFFF --------------------------------------colorchange------------------------------------------*/
 	z-index: 17;
 	width: 100%;
 }
@@ -263,3 +263,6 @@ height: 70px;
 background: transparent url("/Pictures/btn-download-studio3.png") no-repeat top left;
 }
 */
+.text {
+	color:#436C6E;/*----------------------------------------------------------------------------ColorChange------------------------------------------*/
+}

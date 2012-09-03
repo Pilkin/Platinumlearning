@@ -16,12 +16,13 @@ if (!file_exists("$page.php")) {
 <head>
 	<title>Platinumcoding.com</title>
 	<link rel="stylesheet" href="style.css" />
+	<script src="jscript.js"></script>
 </head>
 <body>
 	
 <div id="header-wrap">
 	<div id="banner">
-		<img src="Pictures/Platinumcodinglogo.png" alt="Platinum coding">
+		<img src="Pictures/Platinumlearninglogo.png" alt="Platinum coding">
 			<div id="signinbox">
 				<form action="insert.php" method="post">
 					<div class="cssmenu">
